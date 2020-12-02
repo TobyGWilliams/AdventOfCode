@@ -4,8 +4,9 @@
   "description": "",
   "main": "day1.js",
   "scripts": {
-    "watch": "nodemon -w ./dist ./dist/day1.js --gui",
-    "compile": "babel src --out-dir dist --extensions \".ts\" --source-maps inline --watch"
+    "watch": "nodemon -w ./dist ./dist/day-2.js --gui",
+    "compile": "babel src --out-dir dist --extensions \".ts\" --source-maps inline --watch",
+    "jest": "jest --watch"
   },
   "repository": {
     "type": "git",
