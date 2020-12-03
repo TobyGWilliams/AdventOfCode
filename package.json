@@ -2,9 +2,8 @@
   "name": "adventofcode",
   "version": "1.0.0",
   "description": "",
-  "main": "day1.js",
   "scripts": {
-    "watch": "nodemon -w ./dist ./dist/day-2.js --gui",
+    "watch": "nodemon -w ./dist ./dist/day-3/index.js",
     "compile": "babel src --out-dir dist --extensions \".ts\" --source-maps inline --watch",
     "jest": "jest --watch"
   },
