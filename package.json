@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "watch": "nodemon -w ./dist ./dist/day-7/index.js",
+    "watch": "nodemon -w ./dist ./dist/day-8/index.js",
     "compile": "babel src --out-dir dist --extensions \".ts\" --source-maps inline --watch",
     "jest": "jest --watch"
   },

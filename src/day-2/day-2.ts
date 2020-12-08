@@ -2,30 +2,6 @@ import codes from "./day-2-codes";
 
 // const codes = "1-3 a: abcde\n1-3 b: cdefg\n2-9 c: ccccccccc";
 
-interface Data {
-  low: string;
-  high: string;
-  letter: string;
-  password: string;
-  valid: boolean;
-  valid1: boolean;
-  valid2: boolean;
-}
-
-const report = ({
-  low,
-  high,
-  letter,
-  password,
-  valid,
-  valid1,
-  valid2,
-}: Data) => {
-  console.log(
-    `${low}\t${high}\t${letter}\t${valid}\t${valid1}\t${valid2}\t${password}`
-  );
-};
-
 const parsedCodes = codes.split("\n").map((code) => {
   // @ts-ignore
   const [, low, high, letter, password] = code.match(
