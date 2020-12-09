@@ -57,7 +57,7 @@ const run = (instructions, lineToChange: number) => {
 };
 
 const getAnswer = (input) => {
-  const instructions = input.split("\n").map((currentLine) => {
+  const instructions = input.split("\n").map((currentLine: string) => {
     const [, instruction, numberAsString] = currentLine.match(
       /^([a-z]{3}) (.*)$/
     );
@@ -75,3 +75,4 @@ const getAnswer = (input) => {
 console.log(getAnswer(questionInput));
 
 console.timeEnd("start");
+
